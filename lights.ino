@@ -1,9 +1,9 @@
-
 void setup() {
 pinMode(13, OUTPUT);
 pinMode(12, OUTPUT);
 pinMode(11, OUTPUT);
 pinMode(8, OUTPUT);
+pinMode(5, OUTPUT);
 }
 
   void loop() {
@@ -19,4 +19,7 @@ digitalWrite(11, LOW);
 digitalWrite(8, HIGH);
 delay(750);
 digitalWrite(8, LOW);
+digitalWrite(5, HIGH);
+delay(750);
+digitalWrite(5, LOW);
  }
